@@ -1,0 +1,148 @@
+@font-face{
+font-family:"CantataOne-Regular";
+src:url(../fonts/CantataOne-Regular.ttf);
+}
+@font-face {
+font-family:"Raleway-Semibold";
+src:url(../fonts/raleway/Raleway-Semibold.ttf);
+}
+@font-face {
+font-family:"Raleway-Light";
+src:url(../fonts/raleway/Raleway-Light.ttf);
+}
+*{
+margin:0;
+padding:0;
+}
+html{
+width:100%;
+height:100%;
+background-color:white;
+}
+body{
+background-image:url(../img/background.jpg);
+background-size:cover;
+overflow-x:hidden;
+width:100%;
+}
+h1{
+margin-left:2.5%;
+padding-top:.5%;
+font-family:"Raleway-SemiBold";
+font-size: 1.7em;
+}
+ul{
+list-style:none;
+margin-top:3%;
+margin-left:1.7%;
+line-height:2.3em;
+font-family:"Raleway-Light";
+font-size:.9em;
+}
+a{color:black;
+}
+a:hover{
+color:black;
+}
+#hello {
+text-align:center;
+padding-top:10%;
+font-family: "CantataOne-Regular";
+font-size:8em;
+}
+#intro{
+text-align:center;
+font-size:1.5em;
+font-family:"Raleway-Light";
+width:37%;
+margin:0 auto;
+line-height:1.6em;
+color:gray;
+padding-bottom:5%;
+}
+
+@media screen and (max-width:1200px){
+body{
+background-image:url(../img/background.jpg);
+background-size:contain;
+height:auto;
+background-repeat:no-repeat;
+overflow-x:hidden;
+width:100%;
+}
+#intro{
+text-align:center;
+font-size:1.5em;
+font-family:"Raleway-Light";
+width:44%;
+margin:0 auto;
+line-height:1.6em;
+color:gray;
+padding-bottom:5%;
+}
+}
+@media screen and (max-width:900px){
+body{
+background-image:url(../img/background.jpg);
+background-size:contain;
+height:auto;
+background-repeat:no-repeat;
+overflow-x:hidden;
+width:100%;
+}
+#intro{
+text-align:center;
+font-size:1.5em;
+font-family:"Raleway-Light";
+width:60%;
+margin:0 auto;
+line-height:1.6em;
+color:gray;
+padding-bottom:5%;
+}
+}
+@media screen and (max-width:870px){
+body{
+background-image:url(../img/background.jpg);
+background-size:contain;
+height:auto;
+background-repeat:no-repeat;
+overflow-x:hidden;
+width:100%;
+}
+#intro{
+text-align:center;
+font-size:1.5em;
+font-family:"Raleway-Light";
+width:70%;
+margin:0 auto;
+line-height:1.6em;
+color:gray;
+padding-bottom:5%;
+}
+}
+@media screen and (max-width:500px){
+body{
+background-image:url(../img/background.jpg);
+background-size:contain;
+height:auto;
+background-repeat:no-repeat;
+overflow-x:hidden;
+width:100%;
+}
+#hello {
+text-align:center;
+font-family: "CantataOne-Regular";
+font-size:4em;
+}
+#intro{
+text-align:center;
+font-size:1em;
+font-family:"Raleway-Light";
+width:62%;
+margin:0 auto;
+line-height:1.6em;
+color:gray;
+padding-bottom:5%;
+}
+}
